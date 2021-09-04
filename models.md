@@ -59,39 +59,39 @@ Start by writing out:
 
 <ul>
 <li>Request - 
-`GET /index.html`
-Accept: `text/html` Response - 200 (OK) Content-type: `text/html`</li>
-<li>Request - <code>GET /style.css</code> Accept: `text/css` Response - 200 (OK) Content-type: `text/css`</li>
-<li>Request - `GET /venues` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
-<li>Request - `GET /venues/:id` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
-<li>Request - `GET /venues/:id/photos` Accept: `application/json` Response - 200 (OK) Content-type: `application/json` </li>
-<li>Request - `GET /venues/:id/photos/:id` Accept: `image/png` Response - 200 (OK) Content-type: `image/png` </li>
-<li>Request - `GET /users` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
-<li>Request - `GET /users/:id` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
+<code>GET /index.html</code>
+Accept: <code>text/html</code> Response - 200 (OK) Content-type: <code>text/html</code></li>
+<li>Request - <code>GET /style.css</code> Accept: <code>text/css</code> Response - 200 (OK) Content-type: <code>text/css</code></li>
+<li>Request - <code>GET /venues</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json`</li>
+<li>Request - <code>GET /venues/:id</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: `application/json`</li>
+<li>Request - <code>GET /venues/:id/photos</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: `application/json` </li>
+<li>Request - <code>GET /venues/:id/photos/:id</code> Accept: <code>image/png</code> Response - 200 (OK) Content-type: `image/png` </li>
+<li>Request - <code>GET /users</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json</code> </li>
+<li>Request - <code>GET /users/:id</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: `application/json`</li>
 </ul>
 
 <h3>POST Requests</h3>
 
 <ul>
-<li>Request - `POST /users` Accept: `application/json` Response - 201 (CREATED) Content-type: `application/json`</li>
-<li>Request - `POST /venues` Accept: `application/json` Response - 201 (CREATED) Content-type: `application/json`</li>
-<li>Request - `POST /venues/:id/photos` Accept: `application/json` Response - 201 (CREATED) Content-type: `application/json` </li>
+<li>Request - <code>POST /users</code> Accept: <code>application/json</code> Response - 201 (CREATED) Content-type: <code>application/json</code></li>
+<li>Request - <code>POST /venues</code> Accept: <code>application/json</code> Response - 201 (CREATED) Content-type: <code>application/json</code></li>
+<li>Request - <code>POST /venues/:id/photos</code> Accept: <code>application/json</code> Response - 201 (CREATED) Content-type: <code>application/json</code></li>
 </ul>
 
 <h3>PUT Requests</h3>
 
 <ul>
-<li>Request - `PUT /users/:id` Response - 200 (OK)</li>
-<li>Request - `PUT /venues/:id` Response - 200 (OK)</li>
-<li>Request - `PUT /venues/:id/photos/:id` Response - 200 (OK)</li>
+<li>Request - <code>PUT /users/:id</code> Response - 200 (OK)</li>
+<li>Request - <code>PUT /venues/:id</code> Response - 200 (OK)</li>
+<li>Request - <code>PUT /venues/:id/photos/:id</code> Response - 200 (OK)</li>
 </ul>
 
 <h3>DELETE Requests</h3>
 
 <ul>
-<li>Request - `DELETE /users/:id` Response - 204 (NO CONTENT)</li>
-<li>Request - `DELETE /venues/:id` Response - 204 (NO CONTENT)</li>
-<li>Request - `DELETE /venues/:id/photos/:id` Response - 204 (NO CONTENT)</li>
+<li>Request - <code>DELETE /users/:id</code> Response - 204 (NO CONTENT)</li>
+<li>Request - <code>DELETE /venues/:id</code> Response - 204 (NO CONTENT)</li>
+<li>Request - <code>DELETE /venues/:id/photos/:id</code> Response - 204 (NO CONTENT)</li>
 </ul>
 
 Taken from CodeAcademy's What is REST article - https://www.codecademy.com/articles/what-is-rest
