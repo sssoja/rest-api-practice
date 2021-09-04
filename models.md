@@ -91,7 +91,7 @@ Start by writing out:
 
 Taken from CodeAcademy's What is REST article - https://www.codecademy.com/articles/what-is-rest
 
-```js
+```
 {
   "user": {
     "id": <Integer>,
