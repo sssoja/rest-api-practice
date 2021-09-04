@@ -31,7 +31,7 @@ Start by writing out:
 <h4>Photo</h4>
 ```
 {
-  "photo: {
+  "photo": {
     "id": <Integer>,
     "venue_id": <Integer>,
     "user_id":  <Integer>
@@ -88,3 +88,5 @@ Start by writing out:
 <li>Request - `DELETE /venues/:id` Response - 204 (NO CONTENT)</li>
 <li>Request - `DELETE /venues/:id/photos/:id` Response - 204 (NO CONTENT)</li>
 </ul>
+
+Taken from CodeAcademy's What is REST article - https://www.codecademy.com/articles/what-is-rest
