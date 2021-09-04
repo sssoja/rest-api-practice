@@ -18,6 +18,7 @@ Start by writing out:
 <h2>Possible Solution - Models</h2>
 
 <h4>User</h4>
+
 ```
 {
   "user": {
@@ -29,24 +30,26 @@ Start by writing out:
 ```
 
 <h4>Photo</h4>
+
 ```
 {
-"photo": {
-"id": <Integer>,
-"venue_id": <Integer>,
-"user_id": <Integer>
-}
+  "photo": {
+    "id": <Integer>,
+    "venue_id":  <String>,
+    "user_id": <String>
+   }
 }
 ```
 
 <h4>Venue</h4>
+
 ```
 {
-"venue": {
-"id": <Integer>,
-"name": <String>,
-"address": <String>
-}
+  "venue": {
+    "id": <Integer>,
+    "name":  <String>,
+    "address": <String>
+   }
 }
 ```
 
@@ -90,13 +93,3 @@ Start by writing out:
 </ul>
 
 Taken from CodeAcademy's What is REST article - https://www.codecademy.com/articles/what-is-rest
-
-```
-{
-  "user": {
-    "id": <Integer>,
-    "username": <String>,
-    "password":  <String>
-  }
-}
-```
