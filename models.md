@@ -61,7 +61,7 @@ Start by writing out:
 <li>Request - 
 `GET /index.html`
 Accept: `text/html` Response - 200 (OK) Content-type: `text/html`</li>
-<li>Request - `GET /style.css` Accept: `text/css` Response - 200 (OK) Content-type: `text/css`</li>
+<li>Request - <code>GET /style.css</code> Accept: `text/css` Response - 200 (OK) Content-type: `text/css`</li>
 <li>Request - `GET /venues` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
 <li>Request - `GET /venues/:id` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
 <li>Request - `GET /venues/:id/photos` Accept: `application/json` Response - 200 (OK) Content-type: `application/json` </li>
