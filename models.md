@@ -20,7 +20,7 @@ Start by writing out:
 <h4>User</h4>
 ```
 {
-  "user”: {
+  "user": {
     "id": <Integer>,
     "username": <String>,
     "password":  <String>
@@ -31,22 +31,22 @@ Start by writing out:
 <h4>Photo</h4>
 ```
 {
-  "photo": {
-    "id": <Integer>,
-    "venue_id": <Integer>,
-    "user_id":  <Integer>
-  }
+"photo": {
+"id": <Integer>,
+"venue_id": <Integer>,
+"user_id": <Integer>
+}
 }
 ```
 
 <h4>Venue</h4>
 ```
 {
-    "venue": {
-        "id": <Integer>,
-        "name": <String>,
-        "address": <String>
-    }
+"venue": {
+"id": <Integer>,
+"name": <String>,
+"address": <String>
+}
 }
 ```
 
@@ -62,7 +62,7 @@ Start by writing out:
 <li>Request - `GET /venues/:id/photos` Accept: `application/json` Response - 200 (OK) Content-type: `application/json` </li>
 <li>Request - `GET /venues/:id/photos/:id` Accept: `image/png` Response - 200 (OK) Content-type: `image/png` </li>
 <li>Request - `GET /users` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
-<li>Request - `GET /users/:id` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li> 
+<li>Request - `GET /users/:id` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
 </ul>
 
 <h3>POST Requests</h3>
