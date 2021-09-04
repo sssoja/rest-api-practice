@@ -58,7 +58,9 @@ Start by writing out:
 <h3>GET Requests</h3>
 
 <ul>
-<li>Request - `GET /index.html`  Accept: `text/html` Response - 200 (OK) Content-type: `text/html`</li>
+<li>Request - 
+`GET /index.html`
+Accept: `text/html` Response - 200 (OK) Content-type: `text/html`</li>
 <li>Request - `GET /style.css` Accept: `text/css` Response - 200 (OK) Content-type: `text/css`</li>
 <li>Request - `GET /venues` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
 <li>Request - `GET /venues/:id` Accept: `application/json` Response - 200 (OK) Content-type: `application/json`</li>
