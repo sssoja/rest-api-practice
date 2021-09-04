@@ -62,12 +62,12 @@ Start by writing out:
 <code>GET /index.html</code>
 Accept: <code>text/html</code> Response - 200 (OK) Content-type: <code>text/html</code></li>
 <li>Request - <code>GET /style.css</code> Accept: <code>text/css</code> Response - 200 (OK) Content-type: <code>text/css</code></li>
-<li>Request - <code>GET /venues</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json`</li>
-<li>Request - <code>GET /venues/:id</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: `application/json`</li>
-<li>Request - <code>GET /venues/:id/photos</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: `application/json` </li>
-<li>Request - <code>GET /venues/:id/photos/:id</code> Accept: <code>image/png</code> Response - 200 (OK) Content-type: `image/png` </li>
+<li>Request - <code>GET /venues</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json</code></li>
+<li>Request - <code>GET /venues/:id</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json</code></li>
+<li>Request - <code>GET /venues/:id/photos</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json</code></li>
+<li>Request - <code>GET /venues/:id/photos/:id</code> Accept: <code>image/png</code> Response - 200 (OK) Content-type: <code>image/png</code></li>
 <li>Request - <code>GET /users</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json</code> </li>
-<li>Request - <code>GET /users/:id</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: `application/json`</li>
+<li>Request - <code>GET /users/:id</code> Accept: <code>application/json</code> Response - 200 (OK) Content-type: <code>application/json</code></li>
 </ul>
 
 <h3>POST Requests</h3>
