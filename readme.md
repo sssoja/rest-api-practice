@@ -94,4 +94,4 @@ Accept: <code>text/html</code> Response - 200 (OK) Content-type: <code>text/html
 <li>Request - <code>DELETE /venues/:id/photos/:id</code> Response - 204 (NO CONTENT)</li>
 </ul>
 
-Taken from CodeAcademy's What is REST article - https://www.codecademy.com/articles/what-is-rest
+Taken from [CodeAcademy's](https://www.codecademy.com/articles/what-is-rest) What is REST article.
